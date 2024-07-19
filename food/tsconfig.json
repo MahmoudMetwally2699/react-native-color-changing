@@ -1,0 +1,17 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@/*": [
+        "./*"
+      ]
+    }
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+    ".expo/types/**/*.ts",
+    "expo-env.d.ts"
+, "components/api.js", "hooks/useResult.js", "components/resultList.jsx", "app/(tabs)/(home)/index.jsx", "app/(tabs)/(search)/search.jsx", "app/(tabs)/(home)/mahmoud.jsx"  ]
+}
